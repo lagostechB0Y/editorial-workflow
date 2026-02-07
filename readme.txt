@@ -2,7 +2,7 @@
 Contributors: classic40
 Author: Lagostechboy (classic40)
 Author URI: https://lagostechboy.com
-Tags: editorial workflow, content approval, multi-author, editorial review, publishing workflow, admin control
+Tags: editorial workflow, content approval, multi-author, editorial review, publishing workflow
 Requires at least: 6.0
 Tested up to: 6.9
 Stable tag: 1.0.2
@@ -10,7 +10,7 @@ Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A professional editorial content approval workflow for WordPress. Perfect for multi-author sites that require strong editorial and administrative control before publishing.
+A professional editorial content approval workflow for WordPress. Perfect for multi-author sites.
 
 == Description ==
 
