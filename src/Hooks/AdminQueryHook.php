@@ -28,12 +28,10 @@ class AdminQueryHook {
             return;
         }
 
-        $query->set( 'post_status', [
-            'publish',
-            'draft',
-            'pending',
-            'pending_review',
-            'approved',
-        ] );
+        $requested = $query->get( 'post_status' );
+
+        if ( $requested === null || $requested === '' || $requested === 'all' ) {
+            $query->set( 'post_status', [ 'publish','draft','pending','pending_review','approved' ] );
+        }
     }
 }
