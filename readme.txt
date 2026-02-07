@@ -1,11 +1,11 @@
-=== ContentFlow Manager ===
-Contributors: lagostechboy
-Author: Lagostechboy
+=== Content Flow Manager ===
+Contributors: classic40
+Author: Lagostechboy (classic40)
 Author URI: https://lagostechboy.com
 Tags: editorial, content, workflow, review
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 8.0
@@ -13,7 +13,7 @@ Requires PHP: 8.0
 Professional editorial content review workflow for WordPress with custom statuses and approval management.
 
 == Description ==
-ContentFlow Manager adds a professional editorial review system to WordPress. 
+Content Flow Manager adds a professional editorial review system to WordPress. 
 It enables administrators and editors to review, approve, or request changes 
 on posts before they go live. Perfect for blogs, news sites, or any team 
 collaboration environment.
@@ -56,11 +56,12 @@ and can notify editors (logs via WP cron for now).
 * Workflow, hooks, admin UI, cron job, support utilities added
 
 == Upgrade Notice ==
-= 1.0.0 =
-Initial release. No previous versions.
+= 1.0.1 =
+This release includes a minor security fix.
 
 == Additional Notes for Developers ==
 * Namespace: Lagostechboy\EditorialWorkflow
 * Autoloaded via PSR-4 compliant function
 * Repository: https://github.com/lagostechb0y/content-flow-manager
 * GPL licensed
+
